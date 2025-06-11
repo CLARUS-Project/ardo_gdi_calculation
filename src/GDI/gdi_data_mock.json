@@ -1,0 +1,91 @@
+{
+  "gdi_indicators": [
+    {
+      "name": "Total Equivalent Warming Impact",
+      "current_value": 5230,
+      "target_value": 4962,
+      "indicator_weight": 0.77,
+      "hierarchy_level": "Environment",
+      "impact_type": "negative"
+    },
+    {
+      "name": "CO2 Equivalent emissions",
+      "current_value": 118813,
+      "target_value": 75650,
+      "indicator_weight": 0.23,
+      "hierarchy_level": "Environment",
+      "impact_type": "negative"
+    },
+    {
+      "name": "Energy Efficiency",
+      "current_value": 490,
+      "target_value": 462,
+      "indicator_weight": 0.67,
+      "hierarchy_level": "Enterprise",
+      "impact_type": "negative"
+    },
+    {
+      "name": "Water Efficiency",
+      "current_value": 15,
+      "target_value": 13,
+      "indicator_weight": 0.33,
+      "hierarchy_level": "Enterprise",
+      "impact_type": "negative"
+    },
+    {
+      "name": "Coefficient of performance (COP)",
+      "current_value": 1.5,
+      "target_value": 2,
+      "indicator_weight": 1,
+      "hierarchy_level": "Process",
+      "impact_type": "positive"
+    },
+    {
+      "name": "Energy efficiency (compressors)",
+      "current_value": 40,
+      "target_value": 36,
+      "indicator_weight": 0.75,
+      "hierarchy_level": "Process Segment",
+      "impact_type": "negative"
+    },
+    {
+      "name": "Energy Efficiency (Pumps)",
+      "current_value": 5.2,
+      "target_value": 4.85,
+      "indicator_weight": 0.25,
+      "hierarchy_level": "Process Segment",
+      "impact_type": "negative"
+    },
+    {
+      "name": "Thermal energy efficiency",
+      "current_value": 91,
+      "target_value": 93,
+      "indicator_weight": 0.62,
+      "hierarchy_level": "Equipment",
+      "impact_type": "positive"
+    },
+    {
+      "name": "Availability freezing installation",
+      "current_value": 93,
+      "target_value": 95,
+      "indicator_weight": 0.26,
+      "hierarchy_level": "Equipment",
+      "impact_type": "positive"
+    },
+    {
+      "name": "Availability pumps",
+      "current_value": 93,
+      "target_value": 95,
+      "indicator_weight": 0.12,
+      "hierarchy_level": "Equipment",
+      "impact_type": "positive"
+    }
+  ],
+  "hierarchy_weights": {
+    "Environment": 0.38,
+    "Enterprise": 0.24,
+    "Process": 0.21,
+    "Process Segment": 0.11,
+    "Equipment": 0.06
+  }
+}

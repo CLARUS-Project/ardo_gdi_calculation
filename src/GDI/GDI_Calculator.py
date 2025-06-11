@@ -41,12 +41,3 @@ def calculate_green_deal_index(data):
     return data
 
 
-with open('GDI/gdi_data_mock.json', 'r') as file:
-    data = json.load(file)
-
-gdi = calculate_green_deal_index(data)
-print(f"Green Deal Index: {json.dumps(gdi, indent=4)}")
-
-# Save the updated JSON with contributions and GDI
-with open('gdi_data_with_contributions.json', 'w') as file:
-    json.dump(gdi, file, indent=4)

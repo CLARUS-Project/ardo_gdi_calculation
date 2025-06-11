@@ -63,7 +63,7 @@ def ardo_gdi_calculation_as_is():
     init_container = k8s.V1Container(
         name="git-clone",
         image="alpine/git:latest",
-        command=["sh", "-c", "mkdir -p /git && cd /git && git clone -b master --single-branch https://github.com/CLARUS-Project/ardo_gdi_calculation.git"],
+        command=["sh", "-c", "mkdir -p /git && cd /git && git clone -b main --single-branch https://github.com/CLARUS-Project/ardo_gdi_calculation.git"],
         volume_mounts=init_container_volume_mounts
     )
 

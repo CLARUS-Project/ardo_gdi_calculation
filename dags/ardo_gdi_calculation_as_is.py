@@ -82,7 +82,7 @@ def ardo_gdi_calculation_as_is():
     def read_data_procces_task():
         import sys
 
-        sys.path.insert(1, '/git/ai-toolkit-dags/src')
+        sys.path.insert(1, '/git/ardo_gdi_calculation/src')
         from Data.read_data import read_data
 
         return read_data()
@@ -102,7 +102,7 @@ def ardo_gdi_calculation_as_is():
     def calculate_gdi_index_task(data):
         import sys
 
-        sys.path.insert(1, '/git/ai-toolkit-dags/src')
+        sys.path.insert(1, '/git/ardo_gdi_calculation/src')
         from GDI.GDI_Calculator import calculate_green_deal_index
 
         index = calculate_green_deal_index(data)
@@ -124,7 +124,7 @@ def ardo_gdi_calculation_as_is():
         import sys
         import os
 
-        sys.path.insert(1, '/git/ai-toolkit-dags/src')
+        sys.path.insert(1, '/git/ardo_gdi_calculation/src')
         from DB.store import store_gdi
 
         # Assuming 'pilot' is a variable that needs to be passed

@@ -3,7 +3,7 @@ from Data.ids_agent_client  import IDSAgentClient
 import os
 import json
 
-def read_data() -> pd.DataFrame:
+def read_data() :
 
     """
     The function implements the logic to ingest the data and transform it into a pandas format.
